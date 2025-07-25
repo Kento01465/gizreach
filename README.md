@@ -35,3 +35,14 @@ $ cd your-repo
 ```
 $ docker compose --build
 ```
+
+## コミット
+初回コミット前に以下を実行
+```
+git config --local commit.template .gitmessage
+```
+
+コミットする際は以下を打ち込むことにより、テンプレートが表示されます。
+```
+git commit
+```
